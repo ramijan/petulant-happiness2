@@ -38,6 +38,12 @@ Guitars = Guitar.create(
       color: "Fiesta Red",
       strings: 6
       },
+          { 
+      manufacturer: "Tobias", 
+      model: "Toby Standard", 
+      color: "Black",
+      strings: 4
+      }
     ]
 
 )
