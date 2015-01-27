@@ -10,3 +10,40 @@
 Guitar.create(manufacturer: "Gibson", model: "Les Paul", color: "Quilt Top blue",strings: 6)
 
 Guitar.create(manufacturer: "Ibanez",model: "GSR150", color: "Orange", strings: 6)
+
+Guitars = Guitar.create(
+
+  [
+    { 
+      manufacturer: "Gibson", 
+      model: "Les Paul", 
+      color: "Quilt Top blue",
+      strings: 6
+      }, 
+    { 
+      manufacturer: "Gibson", 
+      model: "Maestro", 
+      color: "Natural",
+      strings: 6
+      }, 
+    { 
+      manufacturer: "Ibanez", 
+      model: "GSR150", 
+      color: "Orange",
+      strings: 6
+      }, 
+    { 
+      manufacturer: "Fender", 
+      model: "Stratocastor", 
+      color: "Fiesta Red",
+      strings: 6
+      },
+          { 
+      manufacturer: "Tobias", 
+      model: "Toby Standard", 
+      color: "Black",
+      strings: 4
+      }
+    ]
+
+)
